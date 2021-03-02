@@ -396,7 +396,7 @@
   - platform: state
     from: 'on'
     to: 'off'
-    for: 00:10:00
+    for: 00:20:00
     entity_id:
       - binary_sensor.living_room_sofa_motion_sensor_motion
       - binary_sensor.living_room_tv_motion_sensor_motion
@@ -407,7 +407,7 @@
     entity_id:
       - binary_sensor.living_room_sofa_motion_sensor_motion
       - binary_sensor.living_room_tv_motion_sensor_motion
-    for: 00:10:00
+    for: 00:20:00
     state: 'off'    
   action:
   # Switch Off TV

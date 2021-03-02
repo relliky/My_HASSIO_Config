@@ -1,7 +1,7 @@
   kitchen_wall_lights:
     name: Kitchen Wall Lights
     entities:
-      - switch.kitchen_ceiling_light
+      - light.kitchen_ceiling_light
       - switch.kitchen_dining_light
       - switch.kitchen_floor_led
   kitchen_worktop_lights:
